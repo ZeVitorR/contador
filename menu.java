@@ -21,6 +21,7 @@ public class menu {
                 int cont = l.nextInt();
                 for(int i=0; i<cont; i++){
                     x.incrementar();
+                    System.out.println("o contador está no "+x.retornar());
                 }
                 return 1;
             case 3:
